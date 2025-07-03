@@ -1,0 +1,173 @@
+[
+  {
+    "Name": "المجهول",
+    "Origin": "المغرب",
+    "Type": "طري",
+    "Description": "تمر كبير الحجم، حلو وطعمه يشبه الكراميل.",
+    "NutritionalInfo": "غني بالألياف والبوتاسيوم",
+    "Price": 130.00,
+    "ImagePath": "images/mujhool.jpg"
+  },
+  {
+    "Name": "العجوة",
+    "Origin": "السعودية",
+    "Type": "طري",
+    "Description": "تمر داكن، طري، وحلو قليلًا، وغني بالقيمة الغذائية.",
+    "NutritionalInfo": "عالي بمضادات الأكسدة",
+    "Price": 150.00,
+    "ImagePath": "images/ajwa.jpg"
+  },
+  {
+    "Name": "الخلاص",
+    "Origin": "السعودية",
+    "Type": "شبه جاف",
+    "Description": "تمر متوسط الحجم، شبه طري، بنكهة غنية تشبه الكراميل.",
+    "NutritionalInfo": "مفيد للطاقة والنشاط",
+    "Price": 25.00,
+    "ImagePath": "images/khallas.jpg"
+  },
+  {
+    "Name": "البرحي",
+    "Origin": "العراق",
+    "Type": "طري",
+    "Description": "تمر صغير، طري، ولذيذ، يُؤكل طازجًا أو مجففًا.",
+    "NutritionalInfo": "غني بالسكريات الطبيعية",
+    "Price": 25.00,
+    "ImagePath": "images/barhi.jpg"
+  },
+  {
+    "Name": "دقلة النور",
+    "Origin": "الجزائر",
+    "Type": "شبه جاف",
+    "Description": "يُعرف بـ\"ملكة التمور\"، نصف جاف، بطعم خفيف يشبه العسل.",
+    "NutritionalInfo": "منخفض الدهون وغني بالبوتاسيوم",
+    "Price": 40.00,
+    "ImagePath": "images/dqla_nur.jpg"
+  },
+  {
+    "Name": "المزافاتي",
+    "Origin": "إيران",
+    "Type": "طري",
+    "Description": "تمر داكن، طري، وحلو، يُصدر عالميًا.",
+    "NutritionalInfo": "غني بالسكريات الطبيعية ومضادات الأكسدة",
+    "Price": 40.00,
+    "ImagePath": "images/mazafati.jpg"
+  },
+  {
+    "Name": "الصفاوي",
+    "Origin": "السعودية",
+    "Type": "طري",
+    "Description": "تمر مشابه للعجوة، داكن وحلو قليلًا.",
+    "NutritionalInfo": "غني بالمعادن والألياف",
+    "Price": 90.00,
+    "ImagePath": "images/safawi.jpg"
+  },
+  {
+    "Name": "السكري",
+    "Origin": "السعودية",
+    "Type": "طري",
+    "Description": "تمر حلو جدًا ومثالي للاستخدام في الحلويات.",
+    "NutritionalInfo": "مصدر طبيعي للطاقة",
+    "Price": 120.00,
+    "ImagePath": "images/sukkari.jpg"
+  },
+  {
+    "Name": "الزهدي",
+    "Origin": "العراق",
+    "Type": "شبه جاف",
+    "Description": "تمر ذهبي، بطعم جوزي وخفيف الحلاوة.",
+    "NutritionalInfo": "عالي بالألياف ومنخفض الدهون",
+    "Price": 60.00,
+    "ImagePath": "images/zahdi.jpg"
+  },
+  {
+    "Name": "العنبره",
+    "Origin": "السعودية",
+    "Type": "طري",
+    "Description": "تمر كبير الحجم وغني بالقيمة الغذائية.",
+    "NutritionalInfo": "مفيد للطاقة والنشاط",
+    "Price": 60.00,
+    "ImagePath": "images/ambera.jpg"
+  },
+  {
+    "Name": "الخضري",
+    "Origin": "السعودية",
+    "Type": "جاف",
+    "Description": "تمر بني داكن، طويل العمر التخزيني.",
+    "NutritionalInfo": "مصدر غني بالألياف",
+    "Price": 100.00,
+    "ImagePath": "images/khodri.jpg"
+  },
+  {
+    "Name": "المبروم",
+    "Origin": "السعودية",
+    "Type": "شبه جاف",
+    "Description": "تمر طويل، بطعم حلو خفيف وقوام مطاطي.",
+    "NutritionalInfo": "مفيد للصحة العامة",
+    "Price": 100.00,
+    "ImagePath": "images/mabroom.jpg"
+  },
+  {
+    "Name": "الربي",
+    "Origin": "إيران",
+    "Type": "شبه جاف",
+    "Description": "تمر بني غامق، مثالي كوجبة خفيفة.",
+    "NutritionalInfo": "غني بالمعادن والسكريات",
+    "Price": 60.00,
+    "ImagePath": "images/robi.jpg"
+  },
+  {
+    "Name": "الفرض",
+    "Origin": "عُمان",
+    "Type": "جاف",
+    "Description": "تمر صغير، دائري، وعمر تخزيني طويل.",
+    "NutritionalInfo": "مفيد للصحة العامة",
+    "Price": 55.00,
+    "ImagePath": "images/fard.jpg"
+  },
+  {
+    "Name": "اللولو",
+    "Origin": "الإمارات",
+    "Type": "طري",
+    "Description": "تمر طري ومطاطي، حلو جدًا.",
+    "NutritionalInfo": "غني بالطاقة",
+    "Price": 40.00,
+    "ImagePath": "images/lulu.jpg"
+  },
+  {
+    "Name": "الحساوي",
+    "Origin": "اليمن",
+    "Type": "طري",
+    "Description": "تمر حلو وطري، غني بالنكهة.",
+    "NutritionalInfo": "غني بالفيتامينات والمعادن",
+    "Price": 60.00,
+    "ImagePath": "images/hasawi.jpg"
+  },
+  {
+    "Name": "نبتة علي",
+    "Origin": "السعودية",
+    "Type": "شبه جاف",
+    "Description": "تمر متوسط الحجم، بني ذهبي.",
+    "NutritionalInfo": "مفيد للصحة العامة",
+    "Price": 40.00,
+    "ImagePath": "images/nabta_ali.jpg"
+  },
+  {
+    "Name": "الجيهل",
+    "Origin": "المغرب",
+    "Type": "شبه جاف",
+    "Description": "تمر طويل وداكن، يُقدم مع القهوة.",
+    "NutritionalInfo": "غني بالطاقة",
+    "Price": 60.00,
+    "ImagePath": "images/jihl.jpg"
+  },
+  {
+    "Name": "الخلاصه",
+    "Origin": "الإمارات",
+    "Type": "شبه جاف",
+    "Description": "تمر حلو جدًا ولزج.",
+    "NutritionalInfo": "مناسب للحلويات",
+    "Price": 60.00,
+    "ImagePath": "images/khalasa.jpg"
+  }
+] 

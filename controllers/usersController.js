@@ -7,7 +7,7 @@ exports.signup = async (req, res) => {
   try {
     const { firstName, lastName, userName, email, phone, password, Role } = req.body;
     const existingUser = await User.findOne({ $or: [{ email }, { userName }] });
-    if (existingUser) return res.status(400).json({ status: 'error', message: 'User already exists' });
+    if (existingUser) return res.status(400).json({ status: 'error',  message: 'المستخدم موجود بالفعل' });
     const hashedPassword = await bcrypt.hash(password, 10);
     const user = new User({ firstName, lastName, userName, email, phone, password: hashedPassword, Role });
     await user.save();
@@ -49,7 +49,7 @@ exports.update = async (req, res) => {
     const checkUser = await User.findById(req.params.id);
 
     if(!bcrypt.compareSync(updates.oldPassword, checkUser.password)) {
-      return res.status(400).json({ status: 'error', message: 'Old password is incorrect' });
+      return res.status(400).json({ status: 'error',  message: 'كلمة المرور القديمة غير صحيحة' });
     }
 
     if (updates.newPassword) {

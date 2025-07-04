@@ -46,10 +46,16 @@ exports.profile = async (req, res) => {
 exports.update = async (req, res) => {
   try {
     const updates = req.body;
-    if (updates.password) {
-      updates.password = await bcrypt.hash(updates.password, 10);
+    const checkUser = await User.findById(req.params.id);
+
+    if(!bcrypt.compareSync(updates.oldPassword, checkUser.password)) {
+      return res.status(400).json({ status: 'error', message: 'Old password is incorrect' });
     }
-    const user = await User.findByIdAndUpdate(req.user.id, updates, { new: true }).select('-password');
+
+    if (updates.newPassword) {
+      updates.password = await bcrypt.hash(updates.newPassword, 10);
+    }
+    const user = await User.findByIdAndUpdate(req.params.id, updates, { new: true }).select('-password');
     res.json({ status: 'success', message: 'User updated', user });
   } catch (err) {
     res.status(400).json({ status: 'error', message: err.message });

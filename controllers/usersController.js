@@ -35,7 +35,7 @@ exports.login = async (req, res) => {
 // Profile
 exports.profile = async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password');
+    const user = await User.findById(req.params.id).select('-password');
     res.json({ status: 'success', user });
   } catch (err) {
     res.status(400).json({ status: 'error', message: err.message });

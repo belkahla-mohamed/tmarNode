@@ -15,6 +15,8 @@ const usersRoutes = require('./routes/users');
 app.use('/users', usersRoutes);
 const paymentsRoutes = require('./routes/payments');
 app.use('/payments', paymentsRoutes);
+const cartRoutes = require('./routes/cart');
+app.use('/cart', cartRoutes);
 
 app.get('/', (req, res) => {
   res.send('✅ Node.js backend is running!');

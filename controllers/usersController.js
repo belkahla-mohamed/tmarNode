@@ -60,7 +60,7 @@ exports.update = async (req, res) => {
     const user = await User.findByIdAndUpdate(req.params.id, updates, { new: true }).select('-password');
     res.json({ status: 'success', message: 'User updated', user });
   } catch (err) {
-    res.json({ status: 'error', message: err.message });
+    res.status(500).json({ status: 'error', message: err.message });
   }
 };
 

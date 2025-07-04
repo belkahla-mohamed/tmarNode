@@ -58,6 +58,7 @@ exports.update = async (req, res) => {
 
 // Logout (client should just delete token)
 exports.logout = (req, res) => {
+  res.clearCookie('token');
   res.json({ status: 'success', message: 'Logged out' });
 };
 
